@@ -15,8 +15,8 @@ async function run(command) {
     };
     
     const {
-        REPO_OWNER: "snoejovich",
-        REPO_NAME: "testAzureFunctions",
+        REPO_OWNER: snoejovich,
+        REPO_NAME: testAzureFunctions,
         GITHUB_TOKEN: token,
     } = process.env;
 
