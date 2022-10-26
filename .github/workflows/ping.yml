@@ -1,6 +1,6 @@
 name: Ping
 env:
-  REPO_OWNER: msnoejovich
+  REPO_OWNER: snoejovich
   REPO_NAME: testAzureFunctions
   GITHUB_TOKEN: ${{ secrets.TOKEN }}
 on:
@@ -11,8 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: install npm
-      - run: npm install
       - name: Install packages
         run: npm ci
       - name: Run Ping
