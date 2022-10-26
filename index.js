@@ -17,7 +17,7 @@ async function run(command) {
     const {
         REPO_OWNER: snoejovich,
         REPO_NAME: testAzureFunctions,
-        GITHUB_TOKEN: token,
+        GITHUB_TOKEN: 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 ,
     } = process.env;
 
     const isAllInOne = workflowType === "allinone";
