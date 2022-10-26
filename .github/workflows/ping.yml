@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: install npm
+      - run: npm install
       - name: Install packages
         run: npm ci
       - name: Run Ping
